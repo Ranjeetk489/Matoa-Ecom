@@ -1,0 +1,67 @@
+.social-container {
+  margin-top: 2rem;
+}
+
+/* payment options */
+
+.container-bg {
+  height: 16rem;
+  background-color: var(--light-bg-1);
+  margin: 0 auto;
+}
+.pay-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+}
+.footer-bg {
+  height: 25rem;
+  background-color: var(--dark-bg);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.3rem;
+}
+.ftr-itms {
+  display: flex;
+  flex-direction: column;
+}
+.footer-img {
+  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+.ftr-itm-hl {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-1);
+  color: var(--white-color);
+  text-decoration: none;
+}
+.ftr-itm {
+  color: var(--white-color);
+  font-size: var(--font-size-5);
+  text-decoration: none;
+}
+.ftr-num {
+  margin-left: 2rem;
+}
+.ftr-itm-hll {
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-1);
+  color: var(--white-color);
+}
+.ftr-socials {
+  margin-top: 2rem;
+}
+.ftr-social-ic {
+  color: var(--white-color);
+  font-size: var(--font-size-4);
+  margin-top: 2rem;
+  margin-left: 10px;
+  cursor: pointer;
+}

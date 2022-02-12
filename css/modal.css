@@ -1,0 +1,95 @@
+.hero-container {
+  margin-top: 4rem;
+  background-color: var(--light-bg-2);
+}
+
+.modal-container {
+  display: grid;
+  grid-template-rows: 12.4rem 8rem 2rem 5.5rem 3rem;
+}
+.hero-image {
+  width: 300px;
+  height: 350px;
+}
+.modal-image {
+  padding-right: 3rem;
+  margin-top: 12rem;
+}
+.modal-title {
+  font-size: var(--font-size-1);
+  font-weight: var(--font-weight-2);
+  color: var(--secondary-color);
+  width: 65%;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  padding: 0;
+  margin-top: 3rem;
+  line-height: 4.5rem;
+}
+.modal-title2 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  margin-top: 1.5rem;
+  color: var(--secondary-color);
+  width: 70%;
+}
+.modal-title3 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  font-weight: var(--font-weight-1);
+  font-size: var(--font-size-5);
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.btns {
+  margin-top: 2rem;
+  grid-column: 2/3;
+}
+.modal-btn {
+  padding: 1rem 1.8rem;
+  font-size: var(--font-size-5);
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 2%;
+  margin-right: 1rem;
+}
+.btn1 {
+  color: var(--white-color);
+  background-color: var(--dark-bg);
+}
+.btn2 {
+  border: 1px solid var(--dark-bg);
+  background-color: var(--primary-bg);
+  color: var(--dark-bg);
+  font-weight: var(--font-weight-1);
+}
+.hero-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 85%;
+  font-size: var(--font-size-4);
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.m-nav-ic {
+  padding: 0.4rem 1rem 0.2rem 1rem;
+  border: 1px solid var(--dark-bg);
+  cursor: pointer;
+}
+.hero-next {
+  margin-left: 1rem;
+  background-color: var(--dark-bg);
+  color: var(--white-color);
+}
+.hero-back {
+  color: var(--dark-bg);
+}
+.ul-l {
+  grid-row: 1/2;
+  grid-column: 2/3;
+}
+.ul-s {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
