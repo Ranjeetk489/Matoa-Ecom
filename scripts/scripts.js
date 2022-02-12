@@ -1,3 +1,17 @@
+//cart-modal section
+
+var modal = document.querySelector(".cart-modal");
+var cartBtn = document.querySelector(".cart-link-icon");
+var closeBtn = document.querySelector(".modal-cl-ic");
+
+cartBtn.addEventListener("click", () => {
+  console.log("hi");
+  modal.style.display = "block";
+});
+closeBtn.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
 // deals section
 
 let optionCnt = document.querySelector(".shop-container");
