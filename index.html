@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matoa</title>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" href="assets/favicon.png" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -15,9 +18,9 @@
   <!-- navigation bar -->
   <div class="container">
     <div class="nav-container">
-      <a href="#" class="brand-icon">
+      <span class="brand-icon">
         <img src="assets/brand.svg" alt="Matoa" class="brand-icon" />
-      </a>
+      </span>
       <div class="nav-links">
         <a href="" class="nav-link">Watches</a>
         <a href="" class="nav-link">Eyewear</a>
@@ -32,10 +35,73 @@
           <img src="assets/user.svg" alt="" class="user-icon nav-link" />
           <span class="nav-link-title">Login</span>
         </a>
-        <a href="" class=" cart-link-icon">
+        <span class=" cart-link-icon">
           <img src="assets/cart.svg" alt="" class="cart-icon " />
           <div class="nav-cart-item">0</div>
-        </a>
+        </span>
+        <div class="cart-modal">
+          <span class="cart-close"><i class="ri-close-circle-line modal-cl-ic"></i></span>
+
+          <span class="cart-item">
+            <span class="cart-img-container">
+              <img src="/assets/items/item7.png" alt="" class="cart-modal-img ">
+            </span>
+
+            <span class="cart-item-content ">
+              <span class="cart-item-name">Semaitron</span>
+              <span class="cart-item-price">Rs 45,000</span>
+              <span class="cart-item-type">Custom Engrave</span>
+              <span class="cart-item-msg">Happy | Birthday | from</span>
+            </span>
+
+            <span class="cart-item-log">
+              <span class="cart-item-logistic">Select Packaging</span>
+              <span class="cart-item--chlog">Premium Wooden Packaging<i class="ri-arrow-down-s-line"></i></span>
+              <span class="cart-item-final-cost">
+                <span class="cart-item-btn btn-add"><i class="fa-solid fa-minus"></i></span>
+                <span class="cart-item-count">2</span>
+                <span class="cart-item-btn btn-rv"><i class="ri-add-box-line"></i></span>
+                <span class="cart-item-total-amount">Rs 90,000</span>
+              </span>
+            </span>
+          </span>
+          <span class="cart-item">
+            <span class="cart-img-container">
+              <img src="/assets/items/item4.png" alt="" class="cart-modal-img">
+            </span>
+            <span class="cart-item-content mg">
+              <span class="cart-item-name">Alore HA</span>
+              <span class="cart-item-price">Rs 40,000</span>
+              <span class="cart-item-type">Custom Engrave</span>
+            </span>
+            <span class="cart-item-log">
+              <span class="cart-item-logistic">Select Packaging</span>
+              <span class="cart-item--chlog">Premium Wooden Packaging<i class="ri-arrow-down-s-line"></i></span>
+              <span class="cart-item-final-cost">
+                <span class="cart-item-btn btn-add"><i class="fa-solid fa-minus cart-counter-rv"></i></span>
+                <span class="cart-item-count">1</span>
+                <span class="cart-item-btn btn-rv"><i class="ri-add-box-line cart-counter-add"></i></span>
+                <span class="cart-item-total-amount">Rs 40,000</span>
+              </span>
+            </span>
+          </span>
+          <div class="str-line"></div>
+          <span class="cart-item cart-bill">
+            <form class="cart-item-promo">
+              <label class="cart-item-promo-lbl">Discount Code</label>
+              <input type="text" class="cart-item-promo-inp" placeholder="WINTER35">
+              <span class="cart-item-promo-disc">15% OFF</span>
+            </form>
+            <span class="cart-item-subtotal">
+              <span class="sb-text">Subtotal</span>
+              <div class="strikethrough">
+                <span class="cart-item-pre-total">Rs 1,78,000</span>
+              </div>
+              <span class="cart-item-fin-total">Rs 1,16,000</span>
+            </span>
+            <span class="cart-item-chkout-btn">Checkout</span>
+          </span>
+        </div>
 
       </div>
     </div>

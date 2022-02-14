@@ -1,0 +1,125 @@
+.cart-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  bottom: 1rem;
+  top: 0rem;
+  left: 17vw;
+  width: 60%;
+  height: fit-content;
+  max-height: 70%;
+  margin: auto;
+  overflow: auto;
+  padding: 1rem;
+  padding-bottom: 0rem;
+  background-color: var(--white-color);
+  box-shadow: 1px 1px 10px 4px rgba(216, 71, 39, 0.81);
+}
+.modal-cl-ic {
+  color: rgba(6, 24, 44, 0.65);
+  float: right;
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-1);
+}
+.modal-cl-ic:hover {
+  cursor: pointer;
+  color: var(--dark-bg);
+  text-decoration: none;
+}
+.cart-item {
+  display: grid;
+  grid-template-columns: 8rem auto 37% 3%;
+  margin-top: 2rem;
+}
+.cart-item-content {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+}
+.cart-img-container {
+  height: 8rem;
+  width: 6rem;
+  background-color: var(--light-bg-2);
+}
+.cart-modal-img {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  grid-column: 1/2;
+}
+.cart-item-subtotal {
+  grid-column: 3/4;
+}
+.cart-item-log {
+  display: flex;
+  flex-direction: column;
+}
+.cart-item-logistic {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-1);
+}
+.cart-item--chlog {
+  padding: 10px;
+  background-color: var(--light-bg-2);
+  width: fit-content;
+  cursor: pointer;
+}
+.cart-item-final-cost {
+  margin-top: 1rem;
+  font-size: var(--font-size-4);
+}
+.cart-item-total-amount {
+  font-size: var(--font-size-6);
+}
+.cart-item-btn {
+  padding: 5px 12px 2px 12px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border: 1px solid var(--white-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.btn-rv {
+  background-color: var(--dark-bg);
+  color: var(--white-color);
+}
+.btn-add {
+  background-color: var(--primary-color);
+  color: var(--black-color);
+}
+.cart-bill {
+  margin-top: 1rem;
+}
+.sb-text {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-1);
+}
+.strikethrough {
+  text-decoration: line-through;
+  color: var(--dark-bg);
+}
+.cart-item-fin-total {
+  font-weight: var(--font-weight-1);
+  color: var(--secondary-color);
+}
+.cart-item-chkout-btn {
+  text-align: center;
+  background-color: var(--dark-bg);
+  font-size: var(--font-size-6);
+  grid-column: 1/4;
+  padding: 3px 0;
+  font-weight: var(--font-weight-1);
+  color: var(--white-color);
+  margin: 14px 0;
+  cursor: pointer;
+}
+.cart-item-promo-inp {
+  padding: 10px;
+  background: var(--light-bg-2);
+  border: 0;
+}
+.cart-item-promo-lbl {
+  font-weight: var(--font-weight-1);
+}
+.cart-item-promo-disc {
+  color: var(--secondary-color);
+}
