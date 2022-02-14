@@ -59,7 +59,7 @@
 .chout-ordinfo-price {
   font-weight: var(--font-weight-1);
 }
-.chout-orderinfo-field {
+.chout-ordrinfo-field {
   outline: none;
   border: 0;
   border-bottom: 2px solid #000000;
@@ -67,7 +67,7 @@
   padding: 7px;
   font-size: var(--font-size-6);
 }
-.chout-orderinfo-field:focus {
+.chout-ordrinfo-field:focus {
   outline: none;
   border: 0;
   border-bottom: 4px solid var(--dark-bg);
