@@ -111,6 +111,7 @@
   color: var(--white-color);
   margin: 14px 0;
   cursor: pointer;
+  text-decoration: none;
 }
 .cart-item-promo-inp {
   padding: 10px;

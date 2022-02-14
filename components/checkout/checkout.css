@@ -12,7 +12,7 @@
   margin-bottom: 5rem;
   margin-top: 2rem;
 }
-.chout-odr-container {
+.chout-ordr-container {
   display: flex;
   flex-direction: row;
 }
@@ -50,7 +50,7 @@
   font-size: var(--font-size-6);
   background-color: var(--white-color);
 }
-.chout-odrinfo-title {
+.chout-ordrinfo-title {
   margin-bottom: 1rem;
   margin-left: 1rem;
   font-weight: var(--font-weight-1);
