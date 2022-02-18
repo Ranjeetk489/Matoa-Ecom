@@ -1,0 +1,88 @@
+.user-db-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: var(--white-color);
+  margin: 0 auto;
+  margin-top: 8vh;
+  width: fit-content;
+}
+.form-ctrl {
+  margin-bottom: 0.8rem;
+  padding-bottom: 7px;
+  position: relative;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.form-field {
+  border: 2px solid var(--light-bg-2);
+  border-radius: 5px;
+  display: block;
+  font-family: inherit;
+  width: 18rem;
+  font-size: var(--font-size-7);
+  padding: 6px 8px;
+}
+
+.form-ctrl.success input {
+  border-color: var(--success-color);
+}
+.form-ctrl.error input {
+  border-color: var(--error-color);
+}
+.form-ctrl i {
+  position: absolute;
+  top: 2.9rem;
+  right: 6px;
+  visibility: hidden;
+}
+.form-ctrl.success i.succ-ic {
+  visibility: visible;
+  color: var(--success-color);
+}
+.form-ctrl.error i.err-ic {
+  visibility: visible;
+  color: var(--error-color);
+}
+.form-msg {
+  visibility: hidden;
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+}
+.form-ctrl.success span {
+  visibility: visible;
+  color: var(--success-color);
+}
+.form-ctrl.error span {
+  visibility: visible;
+  color: var(--error-color);
+}
+.action-btn {
+  background-color: var(--light-bg-1);
+  border: 2px solid var(--light-bg-1);
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px 10px;
+  font-size: var(--font-size-6);
+  margin-top: 1rem;
+  color: var(--primary-color);
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.login-btn {
+  border: 0;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.login-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: var(--font-size-6);
+  padding: 4px 1rem;
+}
