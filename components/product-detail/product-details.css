@@ -1,0 +1,104 @@
+@import url(/components/products/products.css);
+
+.pd-detail-container {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.pd-modal {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+.pd-image {
+  width: 80%;
+}
+.pd-detail-box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.pd-category {
+  font-size: var(--font-size-6);
+  color: var(--secondary-color);
+  font-weight: var(--font-weight-2);
+  margin-bottom: 6px;
+}
+.pd-title {
+  font-size: var(--font-size-3);
+  font-weight: var(--font-weight-1);
+  margin-bottom: 1rem;
+}
+.pd-price-container {
+  display: flex;
+  font-size: var(--font-size-5);
+  margin-bottom: 1.2rem;
+}
+.pd-avl-options {
+  width: 10rem;
+  padding: 8px;
+  font-size: var(--font-size-7);
+  color: var(--secondary-color);
+}
+.pd-avl-options:focus {
+  color: var(--light-bg-1);
+  border: 2px solid var(--light-bg-1);
+  background-color: var(--light-bg-2);
+}
+.pd-btn-container {
+  margin-top: 1.2rem;
+}
+.pd-action-btn {
+  padding: 12px 1.6rem;
+  margin-right: 1rem;
+  background-color: var(--light-bg-1);
+  border: 0;
+  border-radius: 3px;
+  font-size: var(--font-size-5);
+  color: var(--primary-color);
+}
+.sec-btn {
+  padding: 9px 1.6rem;
+  background-color: var(--white-color);
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+}
+.pd-action-btn:hover {
+  box-shadow: var(--dark-bg) 0px 9px 10px;
+}
+
+.sec-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+.pd-price {
+  margin-left: 1rem;
+}
+.pd-desc-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.pd-desc-title {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-2);
+}
+.pd-desc {
+  line-height: 1.6rem;
+}
+
+/* Suggestions */
+.pd-component-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.3rem;
+  margin-bottom: 5.3rem;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: var(--font-size-4);
+  margin-left: 1.7rem;
+}
+.section-ul {
+  margin-left: 1.7rem;
+}
