@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.products-container {
+  display: flex;
+  margin-bottom: 7rem;
+}
+.pd-sbar-container {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  width: 32rem;
+}
+.pd-sbar-contentBox {
+  display: flex;
+  flex-direction: column;
+  font-weight: var(--font-weight-2);
+  padding-top: 2rem;
+}
+.sbar-contentBox-data {
+  display: flex;
+  align-items: center;
+}
+.sbar-contentBox-title {
+  margin: 10px 0 5px 0;
+}
+
+.brand-logo {
+  margin: 0 6px 0rem 12px;
+}
+.cr-icon {
+  margin: 0 3px 0 6px;
+}
+.sbar-contentBox-title {
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-1);
+}
+.sbar-contentBox-inplabel {
+  margin-left: 10px;
+  color: var(--secondary-color);
+}
+.sbar-contentBox-inplabel:hover {
+  color: var(--black-color);
+  font-weight: var(--font-weight-1);
+}
+
+.pd-component-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4.2rem;
+}
+.ecom-card {
+  /* padding: 1.4em; */
+  margin-left: 12px;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+.ecom-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.ecom-img {
+  height: 8.875rem;
+  background-color: var(--light-bg-2);
+  padding: 1rem 2.5rem;
+}
+
+.card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-title {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.ecom-card:hover .card-title {
+  font-weight: var(--font-weight-1);
+  color: var(--light-bg-1);
+}
+.card-rating {
+  padding: 2px 4px;
+  background-color: var(--light-bg-1);
+  color: white;
+  border-radius: 4px;
+  font-size: var(--font-size-7);
+  margin-right: 5px;
+}
+.card-bought {
+  color: gray;
+}
+.strikeoff {
+  text-decoration: line-through;
+  color: grey;
+}
+.card-discount {
+  font-weight: 700;
+  color: var(--light-bg-1);
+}
+.card-disprice {
+  font-weight: var(--font-weight-1);
+}
