@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matoa</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../../assets/favicon.png" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="container">
+        <div class="nav-container">
+            <span class="brand-icon">
+                <img src="../../assets/brand-ftr.svg" alt="Matoa" class="brand-icon" />
+            </span>
+            <div class="nav-links">
+                <a href="" class="nav-link">Watches</a>
+                <a href="" class="nav-link">Eyewear</a>
+                <a href="" class="nav-link">Accessories</a>
+                <a href="" class="nav-link">News</a>
+            </div>
+            <div class="sec-nav-links nav-links">
+                <a href="" class="search-icon nav-link">
+                    <img src="../../assets/search.svg" alt="" class="search-icon" />
+                </a>
+                <a href="/components/UserManagement/login.html" class="user-icon-link nav-link">
+                    <img src="../../assets/user.svg" alt="" class="user-icon nav-link" />
+                    <span class="nav-link-title">Login</span>
+                </a>
+                <span class=" cart-link-icon">
+                    <img src="../../assets/cart.svg" alt="" class="cart-icon " />
+                    <div class="nav-cart-item">0</div>
+                </span>
+            </div>
+        </div>
+    </div>
+    <!-- Products Page -->
+    <div class="user-db-container">
+        <div class="db-container">
+            <div class="user-form-container">
+                <h2 class="form-title">Create Account</h2>
+            </div>
+            <form class="signUp-form" id='form'>
+                <div class="form-ctrl">
+                    <label class="form-label">Username</label>
+                    <input type="text" class="form-field" placeholder="matoaShopper" id='username'>
+                    <i class="fa-solid fa-circle-check succ-ic"></i>
+                    <i class="fa-solid fa-circle-exclamation err-ic"></i>
+                    <span class="form-msg"></span>
+                </div>
+                <div class="form-ctrl" id='form'>
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-field" placeholder="matoaShopper@yourmail.com" id='email'>
+                    <i class="fa-solid fa-circle-check succ-ic"></i>
+                    <i class="fa-solid fa-circle-exclamation err-ic"></i>
+                    <span class="form-msg"></span>
+                </div>
+                <div class="form-ctrl" id='form'>
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-field" placeholder="password" id='password'>
+                    <i class="fa-solid fa-circle-check succ-ic"></i>
+                    <i class="fa-solid fa-circle-exclamation err-ic"></i>
+                    <span class="form-msg"></span>
+                </div>
+                <div class="form-ctrl" id='form'>
+                    <label class="form-label">Confirm Password</label>
+                    <input type="password" class="form-field" placeholder="re-enter password" id='repasswd'>
+                    <i class="fa-solid fa-circle-check succ-ic"></i>
+                    <i class="fa-solid fa-circle-exclamation err-ic"></i>
+                    <span class="form-msg"></span>
+                </div>
+                <button class="action-btn">Create Account</button>
+                <button class="action-btn login-btn"><a href="login.html" class="login-link">Sign In</a></button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="/scripts/signUp.js"></script>
+
+</html>
