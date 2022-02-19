@@ -1,0 +1,102 @@
+.chout-detail-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: baseline;
+}
+.chout-inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+.chout-ordr-container {
+  display: flex;
+  flex-direction: row;
+}
+.chout-ordrinfo-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem 2rem 1rem;
+}
+.chout-address-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.chout-icon-container {
+  padding: 1rem;
+}
+.chout-icon {
+  margin-left: 1.5rem;
+}
+.chout-icon-mgl {
+  margin-left: 2.5rem;
+}
+.chout-icon-name {
+  font-size: var(--font-size-4);
+}
+
+.chout-bg-container {
+  padding: 1.4rem;
+  background-color: var(--white-color);
+  font-size: var(--font-size-6);
+}
+
+.chout-address-flex {
+  padding: 1.4rem;
+  font-size: var(--font-size-6);
+  background-color: var(--white-color);
+}
+.chout-ordrinfo-title {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  font-weight: var(--font-weight-1);
+  font-size: var(--font-size-5);
+}
+.chout-ordinfo-price {
+  font-weight: var(--font-weight-1);
+}
+.chout-ordrinfo-field {
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 7px;
+  padding: 7px;
+  font-size: var(--font-size-6);
+}
+.chout-ordrinfo-field:focus {
+  outline: none;
+  border: 0;
+  border-bottom: 4px solid var(--dark-bg);
+}
+.chout-address-label {
+  margin-top: 7px;
+  margin-bottom: 9px;
+  font-size: var(--font-weight-1);
+}
+.chout-address-box {
+  cursor: pointer;
+}
+.chout-action-container {
+  padding: 10px;
+  margin-top: 2rem;
+}
+.chout-action-btn {
+  margin-right: 1rem;
+  padding: 1rem 1.5rem;
+  font-weight: var(--font-weight-1);
+  border: 1px solid var(--dark-bg);
+  cursor: pointer;
+}
+
+.hl-2x {
+  margin-top: 1rem;
+  font-weight: var(--font-weight-1);
+  font-size: var(--font-size-5);
+}
+.sec-ul {
+  width: 50%;
+}

@@ -101,7 +101,8 @@
   font-weight: var(--font-weight-1);
   color: var(--secondary-color);
 }
-.cart-item-chkout-btn {
+
+.cart-item-chkout-btn-link {
   text-align: center;
   background-color: var(--dark-bg);
   font-size: var(--font-size-6);
@@ -111,6 +112,7 @@
   color: var(--white-color);
   margin: 14px 0;
   cursor: pointer;
+  text-decoration: none;
 }
 .cart-item-promo-inp {
   padding: 10px;
