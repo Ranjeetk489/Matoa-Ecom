@@ -19,6 +19,16 @@
 .brand-icon {
   transform: translate(1px, 12px);
 }
+
+.search-icon {
+  transform: translate(-4px, 2px);
+}
+.search-box {
+  padding-bottom: 7px;
+  padding-top: 4px;
+  border-radius: 4px;
+  border: 1px;
+}
 .user-icon-link {
   display: inline-flex;
   align-self: center;
@@ -38,6 +48,7 @@
   background-color: var(--light-bg-2);
   border-radius: 60%;
   position: relative;
+  cursor: pointer;
 }
 .nav-cart-item {
   position: absolute;
